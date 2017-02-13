@@ -11,6 +11,13 @@
     "type": "git",
     "url": "https://github.com/adrianton3/babel-plugin-console-log-self.git"
   },
+  "keywords": [
+    "babel",
+    "plugin",
+    "console",
+    "log",
+    "debug"
+  ],
   "author": "Adrian Toncean <adrianton3@gmail.com>",
   "license": "MIT",
   "dependencies": {},
