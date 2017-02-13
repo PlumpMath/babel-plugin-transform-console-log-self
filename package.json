@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-console-log-self",
+  "version": "0.1.0",
+  "description": "Makes console.log print its arguments in textual form",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianton3/babel-plugin-console-log-self.git"
+  },
+  "author": "Adrian Toncean <adrianton3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0"
+  }
+}
