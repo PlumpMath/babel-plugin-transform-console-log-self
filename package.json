@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-console-log-self",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Makes console.log print its arguments in textual form",
   "main": "lib/index.js",
   "scripts": {
