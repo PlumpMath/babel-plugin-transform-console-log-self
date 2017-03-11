@@ -19,12 +19,16 @@ module.exports = ({ types: t }) => ({
 
 			path.node.arguments = [].concat(
 				...path.node.arguments.map((arg) => {
-					const source = this.file.code.substring(arg.start, arg.end)
+					if (arg.type === 'StringLiteral') {
+						return [arg]
+					} else {
+						const source = this.file.code.substring(arg.start, arg.end)
 
-					return [
-						t.stringLiteral(source),
-						arg
-					]
+						return [
+							t.stringLiteral(source),
+							arg
+						]
+					}
 				})
 			)
 		}
